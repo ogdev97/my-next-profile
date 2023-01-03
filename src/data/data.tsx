@@ -7,7 +7,7 @@ import {
   OfficeBuildingIcon,
   SparklesIcon,
 } from '@heroicons/react/outline';
-
+import profile from '../images/profile.jpg';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -24,7 +24,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpeg';
+
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -103,7 +103,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+  profileImageSrc: profile,
   description: `Just a person who enjoys leisure activities like watching movies and playing games, passionate about programming, 
   a bit of a laid-back personality and appreciate good food and relaxing`,
   aboutItems: [
