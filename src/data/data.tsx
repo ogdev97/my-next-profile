@@ -108,7 +108,7 @@ export const aboutData: About = {
   a bit of a laid-back personality and appreciate good food and relaxing`,
   aboutItems: [
     {label: 'Location', text: 'Penang, Malaysia', Icon: MapIcon},
-    {label: 'Age', text: '26', Icon: CalendarIcon},
+    {label: 'Age', text: '27', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Malaysian / Chinese', Icon: FlagIcon},
     {label: 'Interests', text: 'Gamer / Watching movies / Badminton', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Lincoln, UK', Icon: AcademicCapIcon},
