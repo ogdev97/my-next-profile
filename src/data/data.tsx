@@ -73,7 +73,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Malaysia based <strong className="text-stone-100">Full Stack Web Developer</strong>, currently working
-        at <strong className="text-stone-100">Techtants</strong> helping build a modern, mobile-first, innovative, decentralized
+        at <strong className="text-stone-100">Kincho Tech</strong> helping build a modern, mobile-first, innovative, decentralized
         web applications.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -86,7 +86,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume2022.pdf',
+      href: '/assets/resume2024.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -112,7 +112,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: 'Malaysian / Chinese', Icon: FlagIcon},
     {label: 'Interests', text: 'Gamer / Watching movies / Badminton', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Lincoln, UK', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Techtants Sdn Bhd', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'Kincho Tech Marketing Sdn Bhd', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -168,6 +168,10 @@ export const skills: SkillGroup[] = [
       {
         name: 'Python',
         level: 4,
+      },
+      {
+        name: 'Solidity',
+        level: 8,
       },
     ],
   },
@@ -275,7 +279,24 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'September 2020 - Present',
+    date: 'June 2023 - Present',
+    location: 'Kincho Tech Marketing Sdn Bhd',
+    title: 'Senior PHP/Frontend Developer',
+    content: (
+      <p>     
+        <li>Handling development requirements for admin portals developed using Vue.js </li>
+        <li>Integrating back-end API modules to front-end web development using ThinkPHP and Vue.js </li>
+        <li>Preparing documentation for Linux Baota when migrating PHP projects to the platform, learnt alot of Dev Ops Skills</li>
+        <li>Supervise the front-end requirements for a mobile sports app using mainly React.js and Vue.js </li>
+        <li>Staying up-to-date with the latest developments in the field and incorporating new technologies as appropriate</li>
+        <li>Participate in testing functionalities of web applications and also fixing defects in front-end / back-end codes.</li>
+        <li>Handling the livestream media logic from web frontend side </li>
+      </p>
+
+    ),
+  },
+  {
+    date: 'September 2020 - June 2023',
     location: 'Techtants',
     title: 'Full stack web developer',
     content: (
