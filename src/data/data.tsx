@@ -302,7 +302,7 @@ export const experience: TimelineItem[] = [
         <li>
           Developed a hackathon winner social app under Aptos blockchain{' '}
           <strong>
-            {/* <a href="https://dorahacks.io/buidl/16797"> Cook App</a> */}
+            <a href="https://dorahacks.io/buidl/16797"> Cook App</a>
           </strong>
         </li>
         <li>
