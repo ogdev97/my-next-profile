@@ -13,6 +13,19 @@ const nextConfig = {
       rule.include = undefined;
     });
 
+    // Disable image optimization to fix Squoosh issues
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      'next/image': 'next/image',
+    };
+
+    // Disable Squoosh image optimization
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      fs: false,
+      path: false,
+    };
+
     return config;
   },
   compress: true,
@@ -20,15 +33,12 @@ const nextConfig = {
   pageExtensions: ['tsx', 'mdx', 'ts'],
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
-  svgo: {
-    multipass: true,
-    plugins: ['removeDimensions'],
-  },
-  strictMode: true,
+  reactStrictMode: true,
   swcMinify: true,
   trailingSlash: false,
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
+    unoptimized: true,
   },
 };
 

@@ -31,7 +31,9 @@ const Portfolio: FC = memo(() => {
             );
           })}
         </div>
-        <h4 className="self-center text-l italic text-red-600">* Could not listed more as some projects are confidential still.</h4>
+        <h4 className="text-l self-center italic text-red-600">
+          * Could not listed more as some projects are confidential still.
+        </h4>
       </div>
     </Section>
   );

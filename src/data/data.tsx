@@ -7,7 +7,7 @@ import {
   OfficeBuildingIcon,
   SparklesIcon,
 } from '@heroicons/react/outline';
-import profile from '../images/profile.jpg';
+
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -24,7 +24,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-
+import profile from '../images/profile.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -44,7 +44,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'My Resume',
-  description: "Empowered by Nextjs-Vercel",
+  description: 'Empowered by Nextjs-Vercel',
 };
 
 /**
@@ -72,14 +72,14 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Malaysia based <strong className="text-stone-100">Product QA Engineer</strong>, currently working
-        at <strong className="text-stone-100">Bedrock</strong> helping build a modern, mobile-first, innovative, decentralized
-        web applications.
+        I'm a Malaysia based <strong className="text-stone-100">Product QA Engineer</strong>, currently working at{' '}
+        <strong className="text-stone-100">Bedrock</strong> helping build a modern, mobile-first, innovative,
+        decentralized web applications.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Currently focusing on <strong className="text-stone-100">web3</strong>,
-        enroll on a <strong className="text-stone-100"> CS50 Harvard course</strong>,
-        building up my <strong className="text-stone-100">social networks</strong>, and exploring opportunities outside of my 
+        Currently focusing on <strong className="text-stone-100">web3</strong>, enroll on a{' '}
+        <strong className="text-stone-100"> CS50 Harvard course</strong>, building up my{' '}
+        <strong className="text-stone-100">social networks</strong>, and exploring opportunities outside of my
         <strong className="text-stone-100"> home country</strong>.
       </p>
     </>
@@ -172,7 +172,8 @@ export const skills: SkillGroup[] = [
       {
         name: 'Solidity',
         level: 8,
-      },      {
+      },
+      {
         name: 'Move Programming',
         level: 6,
       },
@@ -269,15 +270,26 @@ export const education: TimelineItem[] = [
     date: 'March 2018',
     location: 'University of Lincoln, UK',
     title: 'Bachelors Degree of Computer Science',
-    content: <p>Strengthen my fundamental concepts and techniques in computer science, also the skills needed to apply these concepts to real-world problems.</p>,
+    content: (
+      <p>
+        Strengthen my fundamental concepts and techniques in computer science, also the skills needed to apply these
+        concepts to real-world problems.
+      </p>
+    ),
   },
   {
     date: 'March 2015',
     location: 'UOW KDU College',
     title: 'Diploma in Computer Science',
-    content: <p>Learning the fundamental concepts and techniques in computer science, including programming, data structures, algorithms, computer architecture, and computer systems. Some programs may also cover topics in related fields such as mathematics and statistics, 
-    and may include practical experiences such as internships or capstone projects.</p>,
-  }
+    content: (
+      <p>
+        Learning the fundamental concepts and techniques in computer science, including programming, data structures,
+        algorithms, computer architecture, and computer systems. Some programs may also cover topics in related fields
+        such as mathematics and statistics, and may include practical experiences such as internships or capstone
+        projects.
+      </p>
+    ),
+  },
 ];
 
 export const experience: TimelineItem[] = [
@@ -286,14 +298,29 @@ export const experience: TimelineItem[] = [
     location: 'CookApp',
     title: 'Founding Engineer / Product Owner',
     content: (
-      <p>     
-        <li>Developed a hackathon winner social app under Aptos blockchain <strong><a href='https://dorahacks.io/buidl/16797'> Cook App</a></strong></li>
-        <li>Led the full product lifecycle — from concept to live demo — covering backend architecture, smart contract design, and frontend development </li>
-        <li>Smart Contract Development: Built and deployed on-chain logic to record alpha staking, reputation points, and reward distribution on Aptos.</li>
-        <li>Frontend Engineering: Integrated a Tinder-swipe UI library to gamify content discovery and user engagement. </li>
-        <li>Hackathon Delivery: Coordinated team tasks, pitched the project, and optimized demo performance for live judging.</li>
-      </p>
-
+      <ul>
+        <li>
+          Developed a hackathon winner social app under Aptos blockchain{' '}
+          <strong>
+            {/* <a href="https://dorahacks.io/buidl/16797"> Cook App</a> */}
+          </strong>
+        </li>
+        <li>
+          Led the full product lifecycle — from concept to live demo — covering backend architecture, smart contract
+          design, and frontend development{' '}
+        </li>
+        <li>
+          Smart Contract Development: Built and deployed on-chain logic to record alpha staking, reputation points, and
+          reward distribution on Aptos.
+        </li>
+        <li>
+          Frontend Engineering: Integrated a Tinder-swipe UI library to gamify content discovery and user engagement.{' '}
+        </li>
+        <li>
+          Hackathon Delivery: Coordinated team tasks, pitched the project, and optimized demo performance for live
+          judging.
+        </li>
+      </ul>
     ),
   },
   {
@@ -301,16 +328,20 @@ export const experience: TimelineItem[] = [
     location: 'Bedrock Technology',
     title: 'Product QA Engineer / Developer Relations',
     content: (
-      <p>     
+      <ul>
         <li>Develop and maintain comprehensive test plans for APIs and backend services. </li>
         <li>Test and validate new API endpoints before external release. </li>
         <li>Track developer issues and triage with engineering teams.</li>
-        <li>Supervise the back-end product requirements and communicating with back-end developers to implement the bedrock point system with third party </li>
-        <li>Staying up-to-date with the latest developments in the field and incorporating new technologies as appropriate</li>
+        <li>
+          Supervise the back-end product requirements and communicating with back-end developers to implement the
+          bedrock point system with third party{' '}
+        </li>
+        <li>
+          Staying up-to-date with the latest developments in the field and incorporating new technologies as appropriate
+        </li>
         <li>Collaborate with developers during code reviews and sprint planning to ensure test coverage</li>
         <li>Document QA standards and Gitbook </li>
-      </p>
-
+      </ul>
     ),
   },
   {
@@ -318,16 +349,23 @@ export const experience: TimelineItem[] = [
     location: 'Kincho Tech Marketing Sdn Bhd',
     title: 'Senior PHP/Frontend Developer',
     content: (
-      <p>     
+      <ul>
         <li>Handling development requirements for admin portals developed using Vue.js </li>
         <li>Integrating back-end API modules to front-end web development using ThinkPHP and Vue.js </li>
-        <li>Preparing documentation for Linux Baota when migrating PHP projects to the platform, learnt alot of Dev Ops Skills</li>
+        <li>
+          Preparing documentation for Linux Baota when migrating PHP projects to the platform, learnt alot of Dev Ops
+          Skills
+        </li>
         <li>Supervise the front-end requirements for a mobile sports app using mainly React.js and Vue.js </li>
-        <li>Staying up-to-date with the latest developments in the field and incorporating new technologies as appropriate</li>
-        <li>Participate in testing functionalities of web applications and also fixing defects in front-end / back-end codes.</li>
+        <li>
+          Staying up-to-date with the latest developments in the field and incorporating new technologies as appropriate
+        </li>
+        <li>
+          Participate in testing functionalities of web applications and also fixing defects in front-end / back-end
+          codes.
+        </li>
         <li>Handling the livestream media logic from web frontend side </li>
-      </p>
-
+      </ul>
     ),
   },
   {
@@ -335,16 +373,20 @@ export const experience: TimelineItem[] = [
     location: 'Techtants',
     title: 'Full stack web developer',
     content: (
-      <p>     
+      <ul>
         <li>Developed multiple projects using PHP Laravel, Vue.js, web3js, Solidity, Adonisjs, Reactjs/Nextjs.</li>
         <li>Integrating back-end API modules to front-end web development </li>
-        <li>Designing the fundamental structure of smart contracts based on various standards such as ERC20, ERC721, and ERC1155 using Solidity</li>
+        <li>
+          Designing the fundamental structure of smart contracts based on various standards such as ERC20, ERC721, and
+          ERC1155 using Solidity
+        </li>
         <li>Collaborating with cross-functional teams to define, design, and ship new features</li>
-        <li>Staying up-to-date with the latest developments in the field and incorporating new technologies as appropriate</li>
+        <li>
+          Staying up-to-date with the latest developments in the field and incorporating new technologies as appropriate
+        </li>
         <li>Participate in testing functionalities of dApps and also fixing defects in front-end / back-end codes.</li>
         <li>Building multiple decentralized Applications powered by Binance Smart Chain & Polygon</li>
-      </p>
-
+      </ul>
     ),
   },
   {
@@ -353,7 +395,8 @@ export const experience: TimelineItem[] = [
     title: 'Junior IT Support interns',
     content: (
       <p>
-        Building website powered by WordPress, learning about PHP web applications plug-ins. Solving website bugs if necessary.
+        Building website powered by WordPress, learning about PHP web applications plug-ins. Solving website bugs if
+        necessary.
       </p>
     ),
   },
