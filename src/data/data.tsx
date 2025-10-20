@@ -72,8 +72,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Malaysia based <strong className="text-stone-100">Full Stack Web Developer</strong>, currently working
-        at <strong className="text-stone-100">Kincho Tech</strong> helping build a modern, mobile-first, innovative, decentralized
+        I'm a Malaysia based <strong className="text-stone-100">Product QA Engineer</strong>, currently working
+        at <strong className="text-stone-100">Bedrock</strong> helping build a modern, mobile-first, innovative, decentralized
         web applications.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -86,7 +86,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume2024.pdf',
+      href: '/assets/resume2025.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -142,7 +142,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'ReactJs /  Nextjs',
-        level: 6,
+        level: 8,
       },
       {
         name: 'Typescript',
@@ -159,7 +159,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 7,
+        level: 8,
       },
       {
         name: 'PHP laravel',
@@ -172,6 +172,9 @@ export const skills: SkillGroup[] = [
       {
         name: 'Solidity',
         level: 8,
+      },      {
+        name: 'Move Programming',
+        level: 6,
       },
     ],
   },
@@ -279,7 +282,39 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'June 2023 - Present',
+    date: 'Present',
+    location: 'CookApp',
+    title: 'Founding Engineer / Product Owner',
+    content: (
+      <p>     
+        <li>Developed a hackathon winner social app under Aptos blockchain <strong><a href='https://dorahacks.io/buidl/16797'> Cook App</a></strong></li>
+        <li>Led the full product lifecycle — from concept to live demo — covering backend architecture, smart contract design, and frontend development </li>
+        <li>Smart Contract Development: Built and deployed on-chain logic to record alpha staking, reputation points, and reward distribution on Aptos.</li>
+        <li>Frontend Engineering: Integrated a Tinder-swipe UI library to gamify content discovery and user engagement. </li>
+        <li>Hackathon Delivery: Coordinated team tasks, pitched the project, and optimized demo performance for live judging.</li>
+      </p>
+
+    ),
+  },
+  {
+    date: 'July 2024 - Present',
+    location: 'Bedrock Technology',
+    title: 'Product QA Engineer / Developer Relations',
+    content: (
+      <p>     
+        <li>Develop and maintain comprehensive test plans for APIs and backend services. </li>
+        <li>Test and validate new API endpoints before external release. </li>
+        <li>Track developer issues and triage with engineering teams.</li>
+        <li>Supervise the back-end product requirements and communicating with back-end developers to implement the bedrock point system with third party </li>
+        <li>Staying up-to-date with the latest developments in the field and incorporating new technologies as appropriate</li>
+        <li>Collaborate with developers during code reviews and sprint planning to ensure test coverage</li>
+        <li>Document QA standards and Gitbook </li>
+      </p>
+
+    ),
+  },
+  {
+    date: 'June 2023 - July 2024',
     location: 'Kincho Tech Marketing Sdn Bhd',
     title: 'Senior PHP/Frontend Developer',
     content: (
