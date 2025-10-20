@@ -112,7 +112,7 @@ export const aboutData: About = {
     {label: 'Nationality', text: 'Malaysian / Chinese', Icon: FlagIcon},
     {label: 'Interests', text: 'Gamer / Watching movies / Badminton', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Lincoln, UK', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Kincho Tech Marketing Sdn Bhd', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'Bedrock Technology', Icon: OfficeBuildingIcon},
   ],
 };
 
